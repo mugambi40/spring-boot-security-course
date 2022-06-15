@@ -1,4 +1,4 @@
-package com.example.demo.auth;
+package com.safarischef.api.auth;
 
 import java.util.Optional;
 

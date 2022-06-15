@@ -1,4 +1,4 @@
-package com.example.demo.security;
+package com.safarischef.api.security;
 
 public enum ApplicationUserPermission {
     STUDENT_READ("student:read"),

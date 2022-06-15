@@ -1,4 +1,4 @@
-package com.example.demo.jwt;
+package com.safarischef.api.jwt;
 
 import com.google.common.net.HttpHeaders;
 import io.jsonwebtoken.security.Keys;

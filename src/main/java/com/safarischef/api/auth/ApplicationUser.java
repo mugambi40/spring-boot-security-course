@@ -1,4 +1,4 @@
-package com.example.demo.auth;
+package com.safarischef.api.auth;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

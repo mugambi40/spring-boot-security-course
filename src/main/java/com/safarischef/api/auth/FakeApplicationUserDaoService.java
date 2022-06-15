@@ -1,14 +1,13 @@
-package com.example.demo.auth;
+package com.safarischef.api.auth;
 
 import com.google.common.collect.Lists;
+import com.safarischef.api.security.ApplicationUserRole;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
-
-import static com.example.demo.security.ApplicationUserRole.*;
 
 @Repository("fake")
 public class FakeApplicationUserDaoService implements ApplicationUserDao {
@@ -33,7 +32,7 @@ public class FakeApplicationUserDaoService implements ApplicationUserDao {
                 new ApplicationUser(
                         "annasmith",
                         passwordEncoder.encode("password"),
-                        STUDENT.getGrantedAuthorities(),
+                        ApplicationUserRole.STUDENT.getGrantedAuthorities(),
                         true,
                         true,
                         true,
@@ -42,7 +41,7 @@ public class FakeApplicationUserDaoService implements ApplicationUserDao {
                 new ApplicationUser(
                         "linda",
                         passwordEncoder.encode("password"),
-                        ADMIN.getGrantedAuthorities(),
+                        ApplicationUserRole.ADMIN.getGrantedAuthorities(),
                         true,
                         true,
                         true,
@@ -51,7 +50,7 @@ public class FakeApplicationUserDaoService implements ApplicationUserDao {
                 new ApplicationUser(
                         "tom",
                         passwordEncoder.encode("password"),
-                        ADMINTRAINEE.getGrantedAuthorities(),
+                        ApplicationUserRole.ADMINTRAINEE.getGrantedAuthorities(),
                         true,
                         true,
                         true,

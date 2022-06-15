@@ -1,4 +1,4 @@
-package com.example.demo.jwt;
+package com.safarischef.api.jwt;
 
 import io.jsonwebtoken.security.Keys;
 import org.springframework.beans.factory.annotation.Autowired;

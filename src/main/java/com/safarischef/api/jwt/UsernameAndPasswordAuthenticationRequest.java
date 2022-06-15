@@ -1,4 +1,4 @@
-package com.example.demo.jwt;
+package com.safarischef.api.jwt;
 
 public class UsernameAndPasswordAuthenticationRequest {
 

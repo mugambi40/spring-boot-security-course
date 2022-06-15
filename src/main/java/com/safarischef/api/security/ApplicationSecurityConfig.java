@@ -1,9 +1,9 @@
-package com.example.demo.security;
+package com.safarischef.api.security;
 
-import com.example.demo.auth.ApplicationUserService;
-import com.example.demo.jwt.JwtConfig;
-import com.example.demo.jwt.JwtTokenVerifier;
-import com.example.demo.jwt.JwtUsernameAndPasswordAuthenticationFilter;
+import com.safarischef.api.auth.ApplicationUserService;
+import com.safarischef.api.jwt.JwtConfig;
+import com.safarischef.api.jwt.JwtTokenVerifier;
+import com.safarischef.api.jwt.JwtUsernameAndPasswordAuthenticationFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,7 +18,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 import javax.crypto.SecretKey;
 
-import static com.example.demo.security.ApplicationUserRole.*;
+import static com.safarischef.api.security.ApplicationUserRole.*;
 
 
 @Configuration

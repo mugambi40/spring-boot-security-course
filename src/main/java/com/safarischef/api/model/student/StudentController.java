@@ -1,4 +1,4 @@
-package com.example.demo.student;
+package com.safarischef.api.model.student;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

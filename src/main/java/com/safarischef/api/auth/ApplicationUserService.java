@@ -1,4 +1,4 @@
-package com.example.demo.auth;
+package com.safarischef.api.auth;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

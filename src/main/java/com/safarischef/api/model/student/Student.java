@@ -1,4 +1,4 @@
-package com.example.demo.student;
+package com.safarischef.api.model.student;
 
 public class Student {
 
